@@ -70,7 +70,7 @@ if __name__ == '__main__':
         Weclome!
       </span>
     </button>
-    <p class="mt-5 mb-3 text-muted">Built using Streamlit and Pytorh, redesigned by Tim</p>
+    <p class="mt-5 mb-3 text-muted">Built using Streamlit and Pytorh</p>
   
   
 </body>
