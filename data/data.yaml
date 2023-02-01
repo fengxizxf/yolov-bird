@@ -1,0 +1,8 @@
+# train: D:\tensorflow\birdsy7pytorch\yolov7\birds_dataset\trian\images
+train: D:\tensorflow\birdsy7pytorch\yolov7\bird\images\train
+# val: D:\tensorflow\birdsy7pytorch\yolov7\birds_dataset\val\images
+val: D:\tensorflow\birdsy7pytorch\yolov7\bird\images\val
+# test: D:\tensorflow\birdsy7pytorch\yolov7\birds_dataset\test\images
+test: D:\tensorflow\birdsy7pytorch\yolov7\bird\test
+nc: 4
+names: ['BANANAQUIT', 'BLACK SKIMMER', 'BLACK THROATED BUSHTIT', 'COCKATOO']
