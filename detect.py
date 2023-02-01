@@ -173,7 +173,7 @@ if __name__ == '__main__':
     # parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
     parser.add_argument('--img-size', type=int, default=224, help='inference size (pixels)')
     # parser.add_argument('--conf-thres', type=float, default=0.25/0/8, help='object confidence threshold')
-    parser.add_argument('--conf-thres', type=float, default=0.55, help='object confidence threshold')
+    parser.add_argument('--conf-thres', type=float, default=0.4, help='object confidence threshold')
     # parser.add_argument('--iou-thres', type=float, default=0.45/0, help='IOU threshold for NMS')
     parser.add_argument('--iou-thres', type=float, default=0.45, help='IOU threshold for NMS')
     # parser.add_argument('--device', default='', help='cuda device, i.e. 0 or 0,1,2,3 or cpu')
