@@ -167,7 +167,7 @@ def detect(opt, save_img=False):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     # parser.add_argument('--weights', nargs='+', type=str, default='yolov7.pt', help='model.pt path(s)')
-    parser.add_argument('--weights', nargs='+', type=str, default='./runs/train/exp/weights/best.pt',
+    parser.add_argument('--weights', nargs='+', type=str, default='best.pt',
                         help='model.pt path(s)')
     parser.add_argument('--source', type=str, default='100birds/video/', help='source')  # file/folder, 0 for webcam
     # parser.add_argument('--img-size', type=int, default=640, help='inference size (pixels)')
