@@ -35,7 +35,7 @@ if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
     parser.add_argument('--weights', nargs='+', type=str,
-                        default='./runs/train/exp/weights/best.pt', help='model.pt path(s)')
+                        default='best.pt', help='model.pt path(s)')
     parser.add_argument('--source', type=str,
                         default='100birds/test/', help='source')
     parser.add_argument('--img-size', type=int, default=224,
@@ -84,8 +84,8 @@ if __name__ == '__main__':
             with st.spinner(text='资源加载中...'):
                 st.sidebar.image(uploaded_file)
                 picture = Image.open(uploaded_file)
-                picture = picture.save(f'100birds/tests/{uploaded_file.name}')
-                opt.source = f'100birds/tests/{uploaded_file.name}'
+                picture = picture.save(f'100birds/test/{uploaded_file.name}')
+                opt.source = f'100birds/test/{uploaded_file.name}'
         else:
             is_valid = False
     elif source_index == 1:
